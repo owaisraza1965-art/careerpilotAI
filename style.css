@@ -143,7 +143,7 @@ header {
 }
 
 /* =========================
-   HERO (VW + VH RESPONSIVE)
+   HERO SECTION 
 ========================= */
 .hero {
   min-height: 90vh;
@@ -212,12 +212,12 @@ h3{
 }
 
 .glow-list {
-  list-style: none; /* Removes default dots */
+  list-style: none; 
 }
 
 .glow-list li::before {
-  content: "• "; /* Custom glowing bullet */
-  color: var(--blue); /* Neon cyan color */
+  content: "• "; 
+  color: var(--blue); 
   font-size: 1.5rem;
   text-shadow: 0 0 8px var(--blue), 0 0 20px var(--blue);
   margin-right: 0.8rem;
@@ -229,7 +229,7 @@ h3{
 }
 
 /* =========================
-   CARDS (GRID RESPONSIVE)
+   CARDS 
 ========================= */
 .service-container {
   display: grid;
